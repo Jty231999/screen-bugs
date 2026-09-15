@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">屏幕苍蝇</string>
+
+    <!-- 标题区 -->
+    <string name="hero_title">屏幕苍蝇</string>
+    <string name="hero_sub">当面整蛊用 · 虫子会飞到任何界面上面</string>
+
+    <!-- 效果预览 -->
+    <string name="section_preview">实际效果</string>
+    <string name="preview_note">所见即所得 · 下面就是真放出去的样子</string>
+    <string name="preview_count_fmt">这一轮会放出 %1$d 只</string>
+
+    <!-- 权限 -->
+    <string name="permission_title">需要「显示在其他应用上层」</string>
+    <string name="permission_request">去授权</string>
+    <string name="permission_why">这是虫子能飞出 App 的唯一前提，系统会明确提示，需要你手动同意。</string>
+
+    <!-- 主操作 -->
+    <string name="action_launch">放虫</string>
+    <string name="action_stop">收网</string>
+    <string name="action_grant_first">先授予权限</string>
+    <string name="hint_idle">点一下，虫子就会飞出来，然后可以把手机递给朋友</string>
+    <string name="hint_running">正在飞。收场：下拉通知栏点「收网」</string>
+    <string name="hint_need_permission">先点开权限才能放虫</string>
+
+    <!-- 设置 -->
+    <string name="section_settings">虫子设置</string>
+    <string name="label_count_title">数量</string>
+    <string name="label_sound_title">嗡嗡声</string>
+    <string name="label_sound_sub">受惊时会突然变响</string>
+    <string name="label_haptic_title">振动</string>
+    <string name="label_haptic_sub">落地、起飞、受惊、跳跃各有不同振感\n系统关掉触感反馈或开了勿扰时不振</string>
+    <string name="count_fmt">%d 只</string>
+    <!-- 品种数和上限从代码里取，避免改了品种表之后文案对不上 -->
+    <string name="hint_max_per_species">%1$d 个品种，每个最多 %2$d 只，总数上限 %3$d</string>
+
+    <!-- 说明 -->
+    <string name="how_to_stop">怎么收场：\n1. 下拉通知栏，点通知里的「收网」\n2. 或者打开本 App，点「收网」\n3. 通知栏里还能「暂停」，让虫子冻在原地</string>
+    <string name="button_how_to_stop">怎么收场？</string>
+    <string name="footer_note">仅供当面整蛊朋友 · 不联网、不读其他应用内容 · 退出入口一直在通知栏</string>
+
+    <!-- 提示 -->
+    <string name="launched_toast">虫子已放出，飞到别的界面也能看到</string>
+    <string name="auto_release_need_permission">新装首次启动会自动放满虫子。请打开「允许显示在其他应用上层」，返回后自动放出</string>
+
+    <!-- 前台服务通知 -->
+    <string name="notif_channel_name">虫子活动状态</string>
+    <string name="notif_channel_desc">显示虫子正在屏幕上活动，并提供收网入口</string>
+    <string name="notif_title">虫子正在飞</string>
+    <string name="notif_text">点「收网」把虫子收回来</string>
+    <string name="notif_title_paused">虫子已暂停</string>
+    <string name="notif_text_paused">虫子冻在原地，点「继续飞」放它走</string>
+    <string name="notif_action_stop">收网</string>
+    <string name="notif_action_pause">暂停</string>
+    <string name="notif_action_resume">继续飞</string>
+</resources>

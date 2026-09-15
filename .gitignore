@@ -1,0 +1,20 @@
+# 构建产物
+build/
+app/build/
+.gradle/
+*.apk
+*.aab
+*.iml
+local.properties
+
+# IDE
+.idea/
+.vscode/
+captures/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 本机开发环境（与项目代码无关）
+/D:/Android/

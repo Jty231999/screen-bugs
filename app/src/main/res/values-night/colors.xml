@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 深色模式覆盖。
+     主题用的是 Theme.Material3.DayNight，如果这里不给出对应颜色，
+     系统切到深色时文字会被自动改成浅色，而卡片背景仍是白色 —— 直接看不清。
+     所以深色下必须把整套颜色都换掉。 -->
+<resources>
+    <color name="ink">#FFE9ECF1</color>
+    <color name="ink_soft">#FF9AA4B2</color>
+    <color name="paper">#FF101317</color>
+    <color name="card">#FF191D23</color>
+    <color name="accent">#FF5B9BFF</color>
+    <color name="accent_soft">#FF1B2A44</color>
+    <color name="ok">#FF3FD07E</color>
+    <color name="warn">#FFFF6B6F</color>
+    <color name="divider">#33FFFFFF</color>
+    <color name="preview_bg">#FF12161B</color>
+    <color name="icon_bg">#FF1B2028</color>
+</resources>

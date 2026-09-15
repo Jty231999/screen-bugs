@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 浅色 -->
+    <color name="ink">#FF14161A</color>
+    <color name="ink_soft">#FF5A6270</color>
+    <color name="paper">#FFF6F7F9</color>
+    <color name="card">#FFFFFFFF</color>
+    <color name="accent">#FF1F6FEB</color>
+    <color name="accent_soft">#FFE8F0FE</color>
+    <color name="ok">#FF12A150</color>
+    <color name="warn">#FFE5484D</color>
+    <color name="divider">#22000000</color>
+    <color name="preview_bg">#FFEDF1F6</color>
+    <color name="icon_bg">#FFEFF2F6</color>
+</resources>

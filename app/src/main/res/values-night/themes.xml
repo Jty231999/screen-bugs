@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 深色模式下的主题覆盖：状态栏改成深色底 + 浅色图标 -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.FlyPrank" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSurface">@color/card</item>
+        <item name="colorOnSurface">@color/ink</item>
+        <item name="android:statusBarColor" tools:targetApi="21">@color/paper</item>
+        <!-- 深色背景要配浅色状态栏图标 -->
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="android:windowBackground">@color/paper</item>
+    </style>
+</resources>

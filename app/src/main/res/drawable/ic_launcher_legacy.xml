@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 8 以下用的启动图标（非自适应，铺满方形，图形略缩以便留边） -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#FFEFF2F6"
+        android:pathData="M0,0 h108 v108 h-108 z" />
+
+    <group
+        android:scaleX="0.86"
+        android:scaleY="0.86"
+        android:pivotX="54"
+        android:pivotY="54">
+
+        <path
+            android:fillColor="#85C6D3E3"
+            android:strokeColor="#4D6B7280"
+            android:strokeWidth="1.2"
+            android:pathData="M52,46 C38,22 16,12 6,20 C-2,27 4,42 19,49 C34,56 48,54 52,46 Z" />
+        <path
+            android:fillColor="#85C6D3E3"
+            android:strokeColor="#4D6B7280"
+            android:strokeWidth="1.2"
+            android:pathData="M52,62 C38,86 16,96 6,88 C-2,81 4,66 19,59 C34,52 48,54 52,62 Z" />
+
+        <path
+            android:fillColor="#2A2D34"
+            android:pathData="M54,58 C47,58 36,55 29,51 C22,47 20,58 24,63 C29,70 44,72 54,72 C61,72 64,65 61,58 Z" />
+
+        <path
+            android:fillColor="#4A4F58"
+            android:pathData="M54,36 C68,36 78,43 78,57 C78,71 68,78 54,78 C40,78 30,71 30,57 C30,43 40,36 54,36 Z" />
+        <path
+            android:fillColor="#78E8F0FA"
+            android:pathData="M56,41 C63,42 70,47 70,54 C70,58 63,59 55,58 C47,57 42,56 42,53 C42,47 49,40 56,41 Z" />
+
+        <path
+            android:fillColor="#22252B"
+            android:pathData="M66,42 C75,42 82,48 82,56 C82,64 75,70 66,70 C57,70 51,64 51,56 C51,48 57,42 66,42 Z" />
+        <path
+            android:fillColor="#6B3129"
+            android:pathData="M69,45 C72.5,45 75.4,47.9 75.4,51.4 C75.4,54.9 72.5,57.8 69,57.8 C65.5,57.8 62.6,54.9 62.6,51.4 C62.6,47.9 65.5,45 69,45 Z" />
+        <path
+            android:fillColor="#6B3129"
+            android:pathData="M69,54.2 C72.5,54.2 75.4,57.1 75.4,60.6 C75.4,64.1 72.5,67 69,67 C65.5,67 62.6,64.1 62.6,60.6 C62.6,57.1 65.5,54.2 69,54.2 Z" />
+
+        <path
+            android:strokeColor="#24272C"
+            android:strokeWidth="3"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M36,44 L25,30 L17,27 M36,70 L25,84 L17,87" />
+        <path
+            android:strokeColor="#24272C"
+            android:strokeWidth="3.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M52,38 L46,20 L42,11 M52,76 L46,94 L42,103" />
+        <path
+            android:strokeColor="#24272C"
+            android:strokeWidth="3.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M68,39 L72,21 L80,13 M68,75 L72,93 L80,101" />
+    </group>
+</vector>
